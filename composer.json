@@ -1,11 +1,11 @@
 {
-    "name": "wim/phpcs-ruleset",
+    "name": "wim-web/phpcs-ruleset",
     "description": "A custom wim's coding standard",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "wim",
+            "name": "wim-web",
             "email": "wim@example.com"
         }
     ],
