@@ -1,0 +1,26 @@
+{
+    "name": "wim/phpcs-ruleset",
+    "description": "A custom wim's coding standard",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wim",
+            "email": "wim@example.com"
+        }
+    ],
+    "require": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wim\\": "Wim/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "archive": {
+        "exclude": ["tests", ".gitignore"]
+    }
+}
