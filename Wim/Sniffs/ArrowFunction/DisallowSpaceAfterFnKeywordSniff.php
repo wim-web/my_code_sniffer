@@ -30,7 +30,7 @@ class DisallowSpaceAfterFnKeywordSniff implements Sniff
 
         if ($nextToken['content'] !== '(') {
             $error = 'Disallow space after fn';
-            $fix = $phpcsFile->addFixableError($error, $stackPtr + 1, 'DisallowSpaceAfterKeyword');
+            $fix = $phpcsFile->addFixableError($error, $stackPtr + 1, 'Found');
 
             if ($fix) {
                 $phpcsFile->fixer->replaceToken($stackPtr + 1, '');
